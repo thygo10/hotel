@@ -1,6 +1,3 @@
-
-
-
 function App() {
   return (
     <>
@@ -64,68 +61,69 @@ function App() {
           <div className="flex">
             <div className="col-1 flex flex-col max-w-prose space-y-4">
               <div className="space-y-3">
-
-              <h4 className="text-gray-400">Resort em Destaque</h4>
-              <h4 className="text-3xl text-gray-700">Ecoresort Praia do Forte Bahia</h4>
-              <p>Hotel qualidade 5 estrelas</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque id ipsa ex vel, a placeat explicabo
-                officia doloribus ea deserunt corporis aliquid esse nobis, facilis non, sint error similique laudantium!
-              </p>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam dolores recusandae perferendis
-                alias porro at omnis quidem bla.
-              </p>
-
+                <h4 className="text-gray-400">Resort em Destaque</h4>
+                <h4 className="text-3xl text-gray-700">Ecoresort Praia do Forte Bahia</h4>
+                <p>Hotel qualidade 5 estrelas</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque id ipsa ex vel, a placeat explicabo
+                  officia doloribus ea deserunt corporis aliquid esse nobis, facilis non, sint error similique
+                  laudantium!
+                </p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam dolores recusandae perferendis
+                  alias porro at omnis quidem bla.
+                </p>
               </div>
-             <div className='mt-1'>
-             <button className="bg-yellow-500 w-fit text-yellow-900 px-3 mt-7 flex gap-4 hover:bg-yellow-300 transition duration-300 ease-in-out py-2 rounded-md">
-                {' '}
-                Solicitar reserva
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                </svg>
-              </button>
-             </div>
-              
+              <div className="mt-1">
+                <button className="bg-yellow-500 w-fit text-yellow-900 px-3 mt-7 flex gap-4 hover:bg-yellow-300 transition duration-300 ease-in-out py-2 rounded-md">
+                  {' '}
+                  Solicitar reserva
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                  </svg>
+                </button>
+              </div>
             </div>
-
-            <div className="flex-shrink-0 col-2 ml-auto">
-              
-            <div className="carousel w-full">
-  <div id="item1" className="carousel-item w-full">
-    <img src="src/assets/c1.jpg" className="w-96" />
-  </div> 
-  <div id="item2" className="carousel-item w-full">
-    <img src="src/assets/c2.jpg" className="w-96" />
-  </div> 
-  <div id="item3" className="carousel-item w-full">
-    <img src="src/assets/c3.jpg" className="w-96" />
-  </div> 
-  <div id="item4" className="carousel-item w-full">
-    <img src="src/assets/c4.jpg" className="w-96"  />
-  </div>
-</div> 
-<div className="flex justify-center w-full py-2 gap-2">
-  <a href="#item1" className="btn btn-xs">1</a> 
-  <a href="#item2" className="btn btn-xs">2</a> 
-  <a href="#item3" className="btn btn-xs">3</a> 
-  <a href="#item4" className="btn btn-xs">4</a>
-</div>
           </div>
-        </div></div>
+        </div>
       </section>
-  
-    
+      <section className="mb-4">
+        <div className="container mx-auto px-8">
+          <h3 className="text-2xl text-center text-gray-500 font-semibold mb-8">Conheça mais resorts</h3>
+          <div className="gridHotels grid grid-cols-4 grid-rows-2 gap-6">
+            <div className="relative col-span-2 h-96 row-span-2 overflow-hidden rounded-md">
+              <div className="absolute text bottom-0 pl-4 pb-4 text-white z-20 ">Beach Park Resort</div>
+              <img className="absolute bottom-0 left-0 h-20 z-10 " src="src/assets/image-shadow.png" alt="" />
+              <img className=" h-full object-center" src="src/assets/hotel-1.jpeg" alt="" />
+            </div>
+            <div className="relative col-span-2 h-44">
+              <div className="absolute text bottom-0 pl-4 pb-4 text-white z-20 ">Salinas do Maragogi Resort</div>
+              <img className="absolute bottom-0 left-0 h-20 z-10 " src="src/assets/image-shadow.png" alt="" />
+              <img className="w-full h-full object-cover" src="src/assets/hotel-2.jpeg" alt="" />
+            </div>
+            <div className="relative h-44">
+              <div className="absolute text bottom-0 pl-4 pb-4 text-white z-20 ">Grand Palladium</div>
+              <img className="absolute bottom-0 left-0 h-20 z-10 " src="src/assets/image-shadow.png" alt="" />
+              <img className=" w-full h-full object-cover" src="src/assets/hotel-3.jpeg" alt="" />
+            </div>
+            <div className="relative h-44">
+              <div className="absolute text bottom-0 pl-4 pb-4 text-white z-20 ">Arraial d'Ajuda Eco Resort</div>
+              <img className="absolute bottom-0 left-0 h-20 z-10 " src="src/assets/image-shadow.png" alt="" />
+
+              <img className="w-full h-full object-cover" src="src/assets/hotel-4.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
     </>
-  )
+  );
 }
 
 export default App;
