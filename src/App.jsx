@@ -1,3 +1,13 @@
+import f1 from './assets/featured-img.png';
+import shadow from './assets/image-shadow.png';
+import insta from './assets/instagram.png';
+import facebook from './assets/facebook1.png';
+import whats from './assets/whatsapp.png';
+import hotel1 from './assets/hotel-1.jpeg';
+import hotel2 from './assets/hotel-2.jpeg';
+import hotel3 from './assets/hotel-3.jpeg';
+import hotel4 from './assets/hotel-4.jpeg';
+
 
 function App() {
   return (
@@ -24,7 +34,7 @@ function App() {
         </header>
       </div>
 
-      <div className="container lg:max-w-5xl max-w-8xl  flex bg-[url('src/assets/bg1.png')] flex-col space-y-3 justify-center mx-auto bg-black bg-cover h-96 items-center bg-no-repeat">
+      <div className="container lg:max-w-5xl max-w-8xl  flex bg-[url('assets/bg1.png')] flex-col space-y-3 justify-center mx-auto bg-black bg-cover h-96 items-center bg-no-repeat">
         <div className="text-white text-center mb-10">
           <h2 className="text-4xl text-gray-50">Onde você quer ir?</h2>
           <p>Escolha o estado e cidade para achar os melhores resorts</p>
@@ -62,7 +72,7 @@ function App() {
           <div className="flex flex-col-reverse">
             <div className="col-1 flex flex-col max-w-prose space-y-4">
               <div className="space-y-3">
-                <img src="src/assets/featured-img.png" alt="" />
+                <img src={f1} alt="" />
                 <h4 className="text-gray-400">Resort em Destaque</h4>
                 <h4 className="text-3xl text-gray-700">Ecoresort Praia do Forte Bahia</h4>
                 <p>Hotel qualidade 5 estrelas</p>
@@ -102,24 +112,24 @@ function App() {
           <div className="gridHotels grid grid-cols-4 grid-rows-2 gap-6">
             <div className="relative col-span-2 h-96 row-span-2 overflow-hidden rounded-md">
               <div className="absolute text bottom-0 pl-4 pb-4 text-white z-20 ">Beach Park Resort</div>
-              <img className="absolute bottom-0 left-0 h-20 z-10 " src="src/assets/image-shadow.png" alt="" />
-              <img className=" h-full object-center" src="src/assets/hotel-1.jpeg" alt="" />
+              <img className="absolute bottom-0 left-0 h-20 z-10 " src={shadow} alt="" />
+              <img className=" h-full object-center" src={hotel1} alt="" />
             </div>
             <div className="relative col-span-2 h-44">
               <div className="absolute text bottom-0 pl-4 pb-4 text-white z-20 ">Salinas do Maragogi Resort</div>
               <img className="absolute bottom-0 left-0 h-20 z-10 " src="src/assets/image-shadow.png" alt="" />
-              <img className="w-full h-full object-cover" src="src/assets/hotel-2.jpeg" alt="" />
+              <img className="w-full h-full object-cover" src={hotel2} alt="" />
             </div>
             <div className="relative h-44">
               <div className="absolute text bottom-0 pl-4 pb-4 text-white z-20 ">Grand Palladium</div>
               <img className="absolute bottom-0 left-0 h-20 z-10 " src="src/assets/image-shadow.png" alt="" />
-              <img className=" w-full h-full object-cover" src="src/assets/hotel-3.jpeg" alt="" />
+              <img className=" w-full h-full object-cover" src={hotel3} alt="" />
             </div>
             <div className="relative h-44">
               <div className="absolute text bottom-0 pl-4 pb-4 text-white z-20 ">Arraial d'Ajuda Eco Resort</div>
               <img className="absolute bottom-0 left-0 h-20 z-10 " src="src/assets/image-shadow.png" alt="" />
 
-              <img className="w-full h-full object-cover" src="src/assets/hotel-4.jpeg" alt="" />
+              <img className="w-full h-full object-cover" src={hotel4} alt="" />
             </div>
           </div>
         </div>
@@ -157,9 +167,9 @@ function App() {
         <div className=" container lg:max-w-5xl max-w-8xl  mx-auto px-4 flex items-center justify-center">
         <h2 className="text-5xl">logo</h2>
         <div className="flex justify-center items-center mx-auto gap-5">
-        <a href="#"><img className="" src="./assets/facebook1.png" width={40} height={40} alt="" /></a>
-        <a href="#"><img className="" src="./assets/instagram.png" width={40} height={40} alt="" /></a>
-        <a href="#"><img className="" src="./assets/whatsapp.png" width={40} height={40} alt="" /></a>
+        <a href="#"><img className="" src={facebook} width={40} height={40} alt="" /></a>
+        <a href="#"><img className="" src={insta} width={40} height={40} alt="" /></a>
+        <a href="#"><img className="" src={whats} width={40} height={40} alt="" /></a>
         </div>
         </div>
       </footer>
