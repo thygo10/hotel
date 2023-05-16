@@ -1,3 +1,4 @@
+
 function App() {
   return (
     <>
@@ -156,9 +157,9 @@ function App() {
         <div className=" container lg:max-w-5xl max-w-8xl  mx-auto px-4 flex items-center justify-center">
         <h2 className="text-5xl">logo</h2>
         <div className="flex justify-center items-center mx-auto gap-5">
-        <a href="#"><img className="" src="src/assets/facebook1.png" width={40} height={40} alt="" /></a>
-        <a href="#"><img className="" src="src/assets/instagram.png" width={40} height={40} alt="" /></a>
-        <a href="#"><img className="" src="src/assets/whatsapp.png" width={40} height={40} alt="" /></a>
+        <a href="#"><img className="" src="./assets/facebook1.png" width={40} height={40} alt="" /></a>
+        <a href="#"><img className="" src="./assets/instagram.png" width={40} height={40} alt="" /></a>
+        <a href="#"><img className="" src="./assets/whatsapp.png" width={40} height={40} alt="" /></a>
         </div>
         </div>
       </footer>
